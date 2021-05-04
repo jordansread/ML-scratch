@@ -1,7 +1,3 @@
-library(readr)
-write_csv(train, 'data/train_data_predict_temperature.csv')
-write_csv(test, '~/Downloads/test_data_predict_temperature.csv')
-
 library(caret)
 library(dplyr)
 library(xgboost)
